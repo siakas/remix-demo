@@ -1,1 +1,0 @@
-import{n as s,M as e,L as a,O as n,S as r}from"./components-BEwn8Gzx.js";function l(){return s.jsxs("html",{lang:"ja",children:[s.jsxs("head",{children:[s.jsx("link",{rel:"icon",href:"data:image/x-icon;base64,AA"}),s.jsx(e,{}),s.jsx(a,{})]}),s.jsxs("body",{children:[s.jsx("h1",{children:"Hello World"}),s.jsx(n,{}),s.jsx(r,{})]})]})}export{l as default};
