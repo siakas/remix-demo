@@ -27,8 +27,8 @@ export default function Index() {
                 </span>
               </h1>
               <p className="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">
-                Check the README.md file for instructions on how to get this
-                project deployed.
+                Check hoge the README.md file for instructions on how to get
+                this project deployed.
               </p>
               <div className="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center">
                 {user ? (
@@ -64,6 +64,12 @@ export default function Index() {
               </a>
             </div>
           </div>
+        </div>
+
+        <div className="text-center m-16">
+          <Link to="/posts" className="text-blue-600 text-xl underline">
+            Blog Posts
+          </Link>
         </div>
 
         <div className="mx-auto max-w-7xl px-4 py-2 sm:px-6 lg:px-8">

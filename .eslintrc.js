@@ -50,6 +50,14 @@ module.exports = {
           'warn',
           { validStrategies: ['ternary'] },
         ],
+        'react/jsx-curly-brace-presence': 'error',
+        'react/self-closing-comp': [
+          'error',
+          {
+            component: true,
+            html: false,
+          },
+        ],
       },
     },
 
